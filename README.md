@@ -1,7 +1,23 @@
 
 # Aplicación CRUD de PHP
 
-Este repositorio contiene una aplicación PHP CRUD (Create, Read, Update, Delete) simple. Es una demostración básica de cómo integrar PHP con una base de datos MySQL para gestionar datos de usuarios. La aplicación permite a los usuarios agregar, ver, editar y eliminar información de usuario.
+Es una demostración básica de cómo integrar PHP con una base de datos MySQL para gestionar datos de usuarios. La aplicación permite a los usuarios agregar, ver, editar y eliminar información de usuario. CRUD es un concepto básico en el desarrollo web. Si recién comienzas a programar, aquí aprenderás cuáles son los procesos esenciales que debes tener en cuenta al desarrollar software y gestionar bases de datos relacionales.Para ejemplificar la implementación del CRUD, vamos a considerar un gestor de pagos. 
+
+##Create (crear)
+Esta fase se utiliza para crear un nuevo registro en la base. Para implementar la operación «Crear», es necesario proporcionar un formulario o una interfaz donde el usuario pueda ingresar los datos para el nuevo registro. Después de que el usuario envía los datos, se debe realizar una validación de los mismos y luego insertarlos en la base o en el sistema de almacenamiento.
+
+En un gestor de pagos, esto se podría utilizar para agregar un nuevo cliente o para crear un registro de pago.
+
+## Desventajas y ventajas
+Algunas ventajas son que facilita la creación y gestión de datos.
+Proporciona una estructura coherente y fácil de entender para su manipulación.
+Ayuda a minimizar los errores y garantiza la integridad de los datos.
+Proporciona una base sólida para el desarrollo de aplicaciones.
+Ahora algunas desventajas es que  puede ser demasiado simplista para aplicaciones complejas.
+En ocasiones, es menos eficiente para aplicaciones de alta velocidad o de gran escala.
+A veces, requiere una gran cantidad de código y configuración para implementarlo completamente.
+
+
 
 ## Tecnologías Utilizadas
 
@@ -60,6 +76,7 @@ Este repositorio contiene una aplicación PHP CRUD (Create, Read, Update, Delete
 ## Nota de Seguridad
 
 Esta aplicación es una demostración básica y no implementa medidas avanzadas de seguridad. Es recomendable utilizar declaraciones preparadas (prepared statements) u ORM para las interacciones con la base de datos para prevenir ataques de inyección SQL.
+
 
 ---
 
